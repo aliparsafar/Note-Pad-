@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monda:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: Montserrat;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    color: #ffff;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #3D633B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 708px;
+height: 48px;
+border-radius: 10px;
+
+
+}
+
+
+.notePad {
+    background: #3D633B;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 708px;
+height: 82px;
+border-radius: 7px;
+
+
+}
+
+    .input {
+        width: 708px;
+        height: 82px;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #FFFF;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.delete-icon {
+    position: absolute;
+    right: 8px;  
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
+}
